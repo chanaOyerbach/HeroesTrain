@@ -1,0 +1,19 @@
+<div ng-controller="LoginController as ctrl">
+    <h2>Login</h2>
+    <form ng-submit="ctrl.login()">
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" ng-model="ctrl.credentials.email" required />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" ng-model="ctrl.credentials.password" required />
+        </div>
+        <div>
+            <button type="submit">Login</button>
+        </div>
+    </form>
+    <div ng-if="ctrl.errorMessage">
+        <p style="color:red;">{{ ctrl.errorMessage }}</p>
+    </div>
+</div>

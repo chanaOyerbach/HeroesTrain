@@ -1,0 +1,15 @@
+<div ng-controller="HeroesController as ctrl">
+    <div ng-repeat="hero in ctrl.heroes">
+        <h3>{{ hero.name }}</h3>
+        <p>Ability: {{ hero.ability }}</p>
+        <p>Suit Colors: {{ hero.suitColors}}</p>
+        <p>Start Date: {{ hero.startedTraining }}</p>
+        <p>Id Trainer: {{ ctrl.currentTrainerId }}</p>
+        <p>Current Power: {{ hero.currentPower }}</p>
+        <p>Training Sessions Today: {{ hero.trainingSessionsToday }}</p>
+        <button ng-click="ctrl.trainHero(hero)"
+            ng-disabled="!ctrl.isHeroBelongsToTrainer(hero) || hero.trainingSessionsToday >= 5">
+            Train
+        </button>
+    </div>
+</div>

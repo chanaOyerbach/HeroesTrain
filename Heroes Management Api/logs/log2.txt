@@ -1,0 +1,59 @@
+2024-08-22 18:59:03.216 +03:00 [INF] Starting web host
+2024-08-22 18:59:03.938 +03:00 [INF] User profile is available. Using 'C:\Users\chanaoye\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-22 18:59:04.062 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-22 18:59:04.069 +03:00 [INF] Hosting environment: Development
+2024-08-22 18:59:04.070 +03:00 [INF] Content root path: C:\Users\chanaoye\Documents\Heroes Management Api\
+2024-08-22 18:59:04.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+2024-08-22 18:59:04.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/index.js - -
+2024-08-22 18:59:04.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+2024-08-22 18:59:04.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+2024-08-22 18:59:04.485 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 393.3321ms
+2024-08-22 18:59:04.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 13778 application/javascript;+charset=utf-8 59.9235ms
+2024-08-22 18:59:04.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/index.js - - - 200 - application/javascript;charset=utf-8 71.1776ms
+2024-08-22 18:59:04.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 110.3137ms
+2024-08-22 18:59:04.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+2024-08-22 18:59:04.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.7766ms
+2024-08-22 18:59:39.369 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:59:39.401 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-22 18:59:39.411 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-22 18:59:39.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - - - 401 - - 44.0429ms
+2024-08-22 19:09:26.826 +03:00 [INF] Starting web host
+2024-08-22 19:09:27.841 +03:00 [INF] User profile is available. Using 'C:\Users\chanaoye\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-22 19:09:28.001 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-22 19:09:28.002 +03:00 [INF] Hosting environment: Development
+2024-08-22 19:09:28.002 +03:00 [INF] Content root path: C:\Users\chanaoye\Documents\Heroes Management Api\
+2024-08-22 19:09:28.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+2024-08-22 19:09:28.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+2024-08-22 19:09:28.516 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 484.7532ms
+2024-08-22 19:09:28.533 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/index.js - -
+2024-08-22 19:09:28.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 13778 application/javascript;+charset=utf-8 19.4066ms
+2024-08-22 19:09:28.575 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+2024-08-22 19:09:28.602 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/index.js - - - 200 - application/javascript;charset=utf-8 69.4308ms
+2024-08-22 19:09:28.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 92.5904ms
+2024-08-22 19:09:28.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+2024-08-22 19:09:29.120 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 374.2974ms
+2024-08-22 19:09:38.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 19:09:38.950 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-22 19:09:38.969 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-22 19:09:38.971 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - - - 401 - - 35.8618ms
+2024-08-22 19:10:23.459 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44311/api/Trainers/login application/json 57
+2024-08-22 19:10:23.466 +03:00 [INF] CORS policy execution successful.
+2024-08-22 19:10:23.470 +03:00 [INF] Executing endpoint 'Heroes_Management_Api.Controllers.TrainersController.Login (Heroes Management Api)'
+2024-08-22 19:10:23.514 +03:00 [INF] Route matched with {action = "Login", controller = "Trainers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Heroes_Management_Api.Models.LoginRequest) on controller Heroes_Management_Api.Controllers.TrainersController (Heroes Management Api).
+2024-08-22 19:10:24.427 +03:00 [WRN] No store type was specified for the decimal property 'CurrentPower' on entity type 'Hero'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-22 19:10:24.427 +03:00 [WRN] No store type was specified for the decimal property 'StartingPower' on entity type 'Hero'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-22 19:10:26.842 +03:00 [INF] Executed DbCommand (82ms) [Parameters=[@__request_Email_0='?' (Size = 4000), @__request_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t0].[TrainerId], [t0].[Email], [t0].[Name], [t0].[Password], [h].[HeroId], [h].[Ability], [h].[CurrentPower], [h].[Name], [h].[StartedTraining], [h].[StartingPower], [h].[SuitColors], [h].[TrainerId], [h].[TrainingSessionsToday]
+FROM (
+    SELECT TOP(1) [t].[TrainerId], [t].[Email], [t].[Name], [t].[Password]
+    FROM [Trainers] AS [t]
+    WHERE [t].[Email] = @__request_Email_0 AND [t].[Password] = @__request_Password_1
+) AS [t0]
+LEFT JOIN [Heroes] AS [h] ON [t0].[TrainerId] = [h].[TrainerId]
+ORDER BY [t0].[TrainerId]
+2024-08-22 19:10:27.090 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Heroes_Management_Api.Models.Trainer, Heroes Management Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-22 19:10:27.144 +03:00 [INF] Executed action Heroes_Management_Api.Controllers.TrainersController.Login (Heroes Management Api) in 3624.5462ms
+2024-08-22 19:10:27.145 +03:00 [INF] Executed endpoint 'Heroes_Management_Api.Controllers.TrainersController.Login (Heroes Management Api)'
+2024-08-22 19:10:27.162 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44311/api/Trainers/login application/json 57 - 200 - application/json;+charset=utf-8 3703.2154ms

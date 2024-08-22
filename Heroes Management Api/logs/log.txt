@@ -1,0 +1,112 @@
+2024-08-22 18:52:49.660 +03:00 [INF] Starting web host
+2024-08-22 18:52:51.279 +03:00 [INF] User profile is available. Using 'C:\Users\chanaoye\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-22 18:52:51.544 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-22 18:52:51.555 +03:00 [INF] Hosting environment: Development
+2024-08-22 18:52:51.555 +03:00 [INF] Content root path: C:\Users\chanaoye\Documents\Heroes Management Api\
+2024-08-22 18:52:51.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+2024-08-22 18:52:52.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+2024-08-22 18:52:52.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/index.js - -
+2024-08-22 18:52:52.604 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 985.0728ms
+2024-08-22 18:52:52.634 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+2024-08-22 18:52:52.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/index.js - - - 200 - application/javascript;charset=utf-8 127.8538ms
+2024-08-22 18:52:52.746 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 13778 application/javascript;+charset=utf-8 135.5547ms
+2024-08-22 18:52:52.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 262.6581ms
+2024-08-22 18:52:52.966 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+2024-08-22 18:52:53.348 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 382.1615ms
+2024-08-22 18:52:53.909 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:52:53.909 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:52:53.919 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:52:53.920 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:52:53.925 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44311/api/Trainers/all-heroes - - - 204 - - 16.1676ms
+2024-08-22 18:52:53.925 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44311/api/Trainers/all-heroes - - - 204 - - 16.3662ms
+2024-08-22 18:52:53.931 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:52:53.933 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:52:54.442 +03:00 [INF] Executing endpoint 'Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api)'
+2024-08-22 18:52:54.485 +03:00 [INF] Route matched with {action = "GetAllHeroes", controller = "Trainers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllHeroes() on controller Heroes_Management_Api.Controllers.TrainersController (Heroes Management Api).
+2024-08-22 18:52:56.306 +03:00 [WRN] No store type was specified for the decimal property 'CurrentPower' on entity type 'Hero'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-22 18:52:56.307 +03:00 [WRN] No store type was specified for the decimal property 'StartingPower' on entity type 'Hero'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-22 18:52:59.990 +03:00 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[HeroId], [h].[Ability], [h].[CurrentPower], [h].[Name], [h].[StartedTraining], [h].[StartingPower], [h].[SuitColors], [h].[TrainerId], [h].[TrainingSessionsToday]
+FROM [Heroes] AS [h]
+ORDER BY [h].[CurrentPower] DESC
+2024-08-22 18:53:00.135 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Heroes_Management_Api.Models.Hero, Heroes Management Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-22 18:53:00.354 +03:00 [INF] Executed action Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api) in 5861.4757ms
+2024-08-22 18:53:00.356 +03:00 [INF] Executed endpoint 'Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api)'
+2024-08-22 18:53:00.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - - - 200 - application/json;+charset=utf-8 6439.5836ms
+2024-08-22 18:53:00.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:53:00.394 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:53:00.395 +03:00 [INF] Executing endpoint 'Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api)'
+2024-08-22 18:53:00.395 +03:00 [INF] Route matched with {action = "GetAllHeroes", controller = "Trainers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllHeroes() on controller Heroes_Management_Api.Controllers.TrainersController (Heroes Management Api).
+2024-08-22 18:53:00.932 +03:00 [INF] Executed DbCommand (532ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[HeroId], [h].[Ability], [h].[CurrentPower], [h].[Name], [h].[StartedTraining], [h].[StartingPower], [h].[SuitColors], [h].[TrainerId], [h].[TrainingSessionsToday]
+FROM [Heroes] AS [h]
+ORDER BY [h].[CurrentPower] DESC
+2024-08-22 18:53:00.932 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Heroes_Management_Api.Models.Hero, Heroes Management Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-22 18:53:00.933 +03:00 [INF] Executed action Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api) in 538.2168ms
+2024-08-22 18:53:00.933 +03:00 [INF] Executed endpoint 'Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api)'
+2024-08-22 18:53:00.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - - - 200 - application/json;+charset=utf-8 539.6527ms
+2024-08-22 18:53:01.939 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44311/api/Trainers/login - -
+2024-08-22 18:53:01.939 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:53:01.939 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44311/api/Trainers/login - - - 204 - - 0.4171ms
+2024-08-22 18:53:01.977 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44311/api/Trainers/login application/json;charset=UTF-8 48
+2024-08-22 18:53:01.977 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:53:01.977 +03:00 [INF] Executing endpoint 'Heroes_Management_Api.Controllers.TrainersController.Login (Heroes Management Api)'
+2024-08-22 18:53:01.989 +03:00 [INF] Route matched with {action = "Login", controller = "Trainers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Heroes_Management_Api.Models.LoginRequest) on controller Heroes_Management_Api.Controllers.TrainersController (Heroes Management Api).
+2024-08-22 18:53:02.787 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[@__request_Email_0='?' (Size = 4000), @__request_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t0].[TrainerId], [t0].[Email], [t0].[Name], [t0].[Password], [h].[HeroId], [h].[Ability], [h].[CurrentPower], [h].[Name], [h].[StartedTraining], [h].[StartingPower], [h].[SuitColors], [h].[TrainerId], [h].[TrainingSessionsToday]
+FROM (
+    SELECT TOP(1) [t].[TrainerId], [t].[Email], [t].[Name], [t].[Password]
+    FROM [Trainers] AS [t]
+    WHERE [t].[Email] = @__request_Email_0 AND [t].[Password] = @__request_Password_1
+) AS [t0]
+LEFT JOIN [Heroes] AS [h] ON [t0].[TrainerId] = [h].[TrainerId]
+ORDER BY [t0].[TrainerId]
+2024-08-22 18:53:02.853 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Heroes_Management_Api.Models.Trainer, Heroes Management Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-22 18:53:02.865 +03:00 [INF] Executed action Heroes_Management_Api.Controllers.TrainersController.Login (Heroes Management Api) in 876.2273ms
+2024-08-22 18:53:02.865 +03:00 [INF] Executed endpoint 'Heroes_Management_Api.Controllers.TrainersController.Login (Heroes Management Api)'
+2024-08-22 18:53:02.866 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44311/api/Trainers/login application/json;charset=UTF-8 48 - 200 - application/json;+charset=utf-8 888.6068ms
+2024-08-22 18:53:02.877 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:53:02.877 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:53:02.878 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:53:02.878 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44311/api/Trainers/all-heroes - - - 204 - - 0.6503ms
+2024-08-22 18:53:02.878 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:53:02.878 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44311/api/Trainers/all-heroes - - - 204 - - 0.6740ms
+2024-08-22 18:53:02.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:53:02.882 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:53:02.883 +03:00 [INF] Executing endpoint 'Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api)'
+2024-08-22 18:53:02.883 +03:00 [INF] Route matched with {action = "GetAllHeroes", controller = "Trainers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllHeroes() on controller Heroes_Management_Api.Controllers.TrainersController (Heroes Management Api).
+2024-08-22 18:53:02.886 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[HeroId], [h].[Ability], [h].[CurrentPower], [h].[Name], [h].[StartedTraining], [h].[StartingPower], [h].[SuitColors], [h].[TrainerId], [h].[TrainingSessionsToday]
+FROM [Heroes] AS [h]
+ORDER BY [h].[CurrentPower] DESC
+2024-08-22 18:53:02.886 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Heroes_Management_Api.Models.Hero, Heroes Management Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-22 18:53:02.887 +03:00 [INF] Executed action Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api) in 3.4769ms
+2024-08-22 18:53:02.887 +03:00 [INF] Executed endpoint 'Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api)'
+2024-08-22 18:53:02.888 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - - - 200 - application/json;+charset=utf-8 6.3630ms
+2024-08-22 18:53:02.890 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - -
+2024-08-22 18:53:02.891 +03:00 [INF] CORS policy execution successful.
+2024-08-22 18:53:02.892 +03:00 [INF] Executing endpoint 'Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api)'
+2024-08-22 18:53:02.892 +03:00 [INF] Route matched with {action = "GetAllHeroes", controller = "Trainers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllHeroes() on controller Heroes_Management_Api.Controllers.TrainersController (Heroes Management Api).
+2024-08-22 18:53:02.894 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[HeroId], [h].[Ability], [h].[CurrentPower], [h].[Name], [h].[StartedTraining], [h].[StartingPower], [h].[SuitColors], [h].[TrainerId], [h].[TrainingSessionsToday]
+FROM [Heroes] AS [h]
+ORDER BY [h].[CurrentPower] DESC
+2024-08-22 18:53:02.895 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Heroes_Management_Api.Models.Hero, Heroes Management Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-22 18:53:02.895 +03:00 [INF] Executed action Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api) in 3.2116ms
+2024-08-22 18:53:02.895 +03:00 [INF] Executed endpoint 'Heroes_Management_Api.Controllers.TrainersController.GetAllHeroes (Heroes Management Api)'
+2024-08-22 18:53:02.896 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/api/Trainers/all-heroes - - - 200 - application/json;+charset=utf-8 5.1947ms
+2024-08-22 18:57:50.093 +03:00 [INF] Starting web host
+2024-08-22 18:57:52.652 +03:00 [INF] User profile is available. Using 'C:\Users\chanaoye\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-22 18:57:53.082 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-22 18:57:53.096 +03:00 [INF] Hosting environment: Development
+2024-08-22 18:57:53.096 +03:00 [INF] Content root path: C:\Users\chanaoye\Documents\Heroes Management Api\
+2024-08-22 18:57:53.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+2024-08-22 18:57:54.278 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 1120.5737ms
+2024-08-22 18:57:54.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+2024-08-22 18:57:54.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+2024-08-22 18:57:54.339 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/index.js - -
+2024-08-22 18:57:54.439 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 13778 application/javascript;+charset=utf-8 84.1420ms
+2024-08-22 18:57:54.485 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/index.js - - - 200 - application/javascript;charset=utf-8 146.0860ms
+2024-08-22 18:57:55.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1211.6141ms
+2024-08-22 18:57:55.585 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+2024-08-22 18:57:55.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 373.8963ms
